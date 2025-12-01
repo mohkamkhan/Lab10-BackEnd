@@ -23,3 +23,5 @@ jobs:
 
       - name: Push Docker Image
         run: docker push ${{ secrets.DOCKER_USERNAME }}/lab10-backend
+        # Trigger workflow
+
